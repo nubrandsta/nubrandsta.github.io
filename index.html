@@ -36,7 +36,7 @@
         #content-1{
             margin:auto;
             margin-top:1%;
-            background-color:#29e470;
+            background-color:#212529;
         }
         #pdfs{
             width:20%;
@@ -46,22 +46,30 @@
         #navbarTop{
             display:grid;
             text-align:center;
+            background-color: #212529;
+             opacity: 1;
+            background-size: 50px 50px;
+            background-image:  repeating-linear-gradient(0deg, #2eff7d, #2eff7d 2px, #212529 10px, #212529);
         }
         #mainbrand{
             width:10%;
             height:10%;
             margin:0 auto;
+            padding:0%;
+            
         }
         #navbarBottom{
-            background-color:#29e470 !important;
+            background-color:#212529 !important;
         }
         #currentPage{
             color:#212529 !important;
             padding-left:5%;
         }
         #links{
-            color:#212529 !important;
+            color:#29e470 !important;
             padding-right:5%;   
+            text-decoration:none;
+            font-weight: bold;
         }
         #footerBottom{
             position:relative;
@@ -73,15 +81,16 @@
 <body>
   
     <nav class="navbar navbar-dark bg-dark py-0" id="navbarTop">
-        <span2 class="navbar-brand mb-1 h1"><img id="mainbrand" class="img-fluid" src="Floplogo.png"></span>
+        <span2 class="navbar-brand mb-1 h1"><img id="mainbrand" class="img-fluid" src="floplogo-trans1.png"></span>
       </nav>
 
-      <nav class="navbar navbar-dark bg-dark py-0" id="navbarBottom">
+      <nav class="navbar navbar-dark bg-dark py-0 " id="navbarBottom">
         <span class="navbar-brand mb-0 h1" id="currentPage">
             <ul class="list-group list-group-horizontal">
                 <li class="list-group-item bg-transparent"><a href="#" id="links">Home</a></li>
                 <li class="list-group-item bg-transparent"><a href="#" id="links">PDFs</a></li>
                 <li class="list-group-item bg-transparent"><a href="#" id="links">Proyek</a></li>
+                <li class="list-group-item bg-transparent"><a href="#" id="links">Artikel</a></li>
             </ul>
         </span>
         <span class="navbar-brand mb-2 h2" id="links">
@@ -95,17 +104,20 @@
       </nav>
 
 
-    <div class="card " id="main-content" style="width:75%;">
+    <div class="card " id="main-content" style="width:85%;">
         <img class="card-img-top" src="..." alt="About">
         <div class="card-body" id="main-content-body">
           <h3 class="card-title" id="main-content-title">Berbagi pengetahuan</h3>
           <p class="card-text" id="main-content-text">
               Situs ini dibuat untuk berbagi pengalaman, pengetahuan dan bahan pembelajaran tentang teknologi (elektronik, komputer, IoT) atau proyek DIY lainya
         </p>
+            <h5 class="card-text">
+                Tugas pemrograman 2
+            </h5>
         </div>
       </div>
 
-      <div class="card " id="content-1" style="width:75%;">
+      <div class="card " id="content-1" style="width:85%;">
         <img class="card-img-top" src="menutama.png" alt="Proyek">
         <div class="card-body" id="main-content-body">
           <h3 class="card-title" id="main-content-title">Proyek</h3>
@@ -114,7 +126,7 @@
         </p>
         </div>
       </div>
-      <div class="card " id="content-1" style="width:75%;">
+      <div class="card " id="content-1" style="width:85%;">
         <img class="card-img-top" id="pdfs" src="elecfordummies.jpg" alt="PDFs">
         <div class="card-body" id="main-content-body">
           <h3 class="card-title" id="main-content-title">PDF</h3>
