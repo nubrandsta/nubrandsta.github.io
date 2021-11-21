@@ -11,74 +11,17 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <style>
-        body{
+          #Body{
             background-color: #000000;
-             opacity: 1;
-            background-size: 44px 44px;
-            background-image:  repeating-linear-gradient(0deg, #2eff7d, #2eff7d 2.2px, #000000 2.2px, #000000);
-        }   
-        #main-content{
-            margin:auto;
-            margin-top:5%;
-            background-color:#29e470;
-            color:#29e470;
-        }
-        #main-content-body{
-            background-color: #212529;
-            color:white;
-        }
-        #main-content-title{
-            text-align:center;
-        }
-        #main-content-text{
-            text-align:center;
-        }
-        #content-1{
-            margin:auto;
-            margin-top:1%;
-            background-color:#212529;
-        }
-        #pdfs{
-            width:20%;
-            height:30%;
-            
-        }
-        #navbarTop{
-            display:grid;
-            text-align:center;
-            background-color: #212529;
-             opacity: 1;
-            background-size: 50px 50px;
-            background-image:  repeating-linear-gradient(0deg, #2eff7d, #2eff7d 2px, #212529 10px, #212529);
-        }
-        #mainbrand{
-            width:10%;
-            height:10%;
-            margin:0 auto;
-            padding:0%;
-            
-        }
-        #navbarBottom{
-            background-color:#212529 !important;
-        }
-        #currentPage{
-            color:#212529 !important;
-            padding-left:5%;
-        }
-        #links{
-            color:#29e470 !important;
-            padding-right:5%;   
-            text-decoration:none;
-            font-weight: bold;
-        }
-        #footerBottom{
-            position:relative;
-            margin-top:10%;
-        }
+            opacity: 1;
+            background-image:  radial-gradient(#2eff7d 2px, transparent 2px), radial-gradient(#2eff7d 2px, #000000 2px);
+            background-size: 80px 80px;
+            background-position: 0 0,40px 40px;
+        }  
     </style>
 
 </head>
-<body>
+<body id="Body">
   
     <nav class="navbar navbar-dark bg-dark py-0" id="navbarTop">
         <span2 class="navbar-brand mb-1 h1"><img id="mainbrand" class="img-fluid" src="floplogo-trans1.png"></span>
@@ -87,10 +30,10 @@
       <nav class="navbar navbar-dark bg-dark py-0 " id="navbarBottom">
         <span class="navbar-brand mb-0 h1" id="currentPage">
             <ul class="list-group list-group-horizontal">
-                <li class="list-group-item bg-transparent"><a href="#" id="links">Home</a></li>
-                <li class="list-group-item bg-transparent"><a href="#" id="links">PDFs</a></li>
-                <li class="list-group-item bg-transparent"><a href="#" id="links">Proyek</a></li>
-                <li class="list-group-item bg-transparent"><a href="#" id="links">Artikel</a></li>
+                <li class="list-group-item bg-transparent"><a href="/index.html" id="links">Home</a></li>
+                <li class="list-group-item bg-transparent"><a href="/pdfs.html" id="links">PDFs</a></li>
+                <li class="list-group-item bg-transparent"><a href="/proyek.html" id="links">Proyek</a></li>
+                <li class="list-group-item bg-transparent"><a href="#" id="links">Forum</a></li>
             </ul>
         </span>
         <span class="navbar-brand mb-2 h2" id="links">
